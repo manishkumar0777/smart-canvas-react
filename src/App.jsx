@@ -20,7 +20,7 @@ const canvasRef = React.useRef(null);
     <Header />
     <div className="max-h-screen bg-gray-100 px-1">
     <div className="max-w-full mx-1"> 
-      <div className="bg-white rounded-lg flex shadow-md px-1 py-4">
+      <div className="bg-white rounded-lg shadow-md px-1 py-4">
         {/* <DrawingCanvas ref={canvasRef} /> */}
         <div className='flex flex-col flex-shrink-0'>
         <CanvasControls 

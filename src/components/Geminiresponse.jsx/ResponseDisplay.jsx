@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown'
 
 function ResponseDisplay({ response, isLoading }) {
   return (
-    <div className='mt-18 p-4 bg-gray-50 rounded-lg border border-gray-200 w-full max-w-full overflow-x-auto'>
+    <div className='mt-1 p-4 bg-gray-50 rounded-lg border border-gray-200 w-full max-w-full overflow-x-auto'>
       <h3 className='text-lg font-semibold mb-2'>Solution:</h3>
       {isLoading ? (
         <div className='flex items-center justify-center py-4'>
