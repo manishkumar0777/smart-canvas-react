@@ -106,16 +106,16 @@ const DrawingCanvas = forwardRef(({ penColor, strokeWidth, tool }, ref) => {
   };
 
   return (
-    <div>
+    <div className='p-1'>
       <canvas
         ref={canvasRef}
-        width={1500}
+        width={1250}
         height={600}
         onMouseDown={startDrawing}
         onMouseMove={draw}
         onMouseUp={endDrawing}
         onMouseLeave={endDrawing}
-        className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] border border-gray-300 rounded-lg"
+        className="border border-gray-300 rounded-lg"
       />
     </div>
   );
